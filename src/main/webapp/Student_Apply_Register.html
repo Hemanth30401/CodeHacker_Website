@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Application For Company Registration</title>
+<style>
+	.t1:hover{
+		box-shadow:5px 5px black;
+	}
+</style>
+</head>
+<body bgcolor="lightblue">
+
+		<center>
+		<fieldset style="background-color:white;width:30%">
+		<h2>QUALCOMM Student Application for Registration</h2>
+		<form action="Company_Final_Application.html" align="left" bgcolor=white >
+		<table cellspacing=7px cellpadding=10px>
+			<tr>
+			<td><label >First Name: </label></td>
+			<td><input type="text" placeholder="Eg:Surya" name="fname" id="77" required></td>
+			
+			</tr>
+			
+			
+			<td><label>LastName: </label></td>
+			<td><input type="text" placeholder="Eg: reddy" id=7><td>
+			</tr>
+			
+			
+			<td><label for="email">Email</label></td>
+				<td><input type="email" placeholder="Eg: abc123@gmail.com" name="email" id="email"></td>
+			</tr>
+			
+			
+			
+			<td><label for="dob">Date Of Birth: </label></td>
+			<td><input type="date" name="dob"></td></tr>
+			
+		
+			
+			<td><label >Password: </label></td>
+			<td><input type=password id="password"></td>
+			</tr>
+			<td>Mobile Number:</td>
+			<td><select >
+			<option>+91</option>
+			<option>+61</option>
+			<option>+99</option>
+			<option>+67</option>
+			</select>
+			<input type="tel" pattern=[0-9]{10}></td></tr>
+			<td><label for="num">Phone Number:</label></td>
+				<td><input type=Number placeholder="Eg: 9324933013" name="num" id="num"></td>
+			</tr>
+			
+			
+			<td><label for="age">Age: </label></td>
+			<td><input type=Number value=18 name="age"></td>
+			</tr>
+			
+			
+			<td><label><b>Choose your Gender:</b></label></td>
+			<td><input type="radio" name="gender">
+			<label>Male</label>
+			<input type="radio" name="gender">
+			<label>Female</label></td>
+			</tr>
+			
+			
+		<td><b><label>Choose you college: </label></b></td>
+		<td><select name="College">
+		<option>NMREC</option>
+		<option>MREC</option>
+		<option>ACE</option>
+		<option>JNTU</option>
+		<option>CBIT</option>
+		<option>MGIT</option>
+		<option>VBIT</option>
+		</select></td></tr>
+		
+		
+		<td><b><label>Technical Skills:</label></b></td>
+		<td><input type="checkbox" name="skills">
+			<label>Core Java</label>
+		<input type="checkbox" name="skills">
+			<label>MySQL</label>
+		<input type="checkbox" name="skills">
+			<label>CSS</label></td></tr>
+		
+		<td><h4> Upload Certificates(Degree): </h4></td>
+		<td><label for="myfile">Select a File:</label>
+				<input type="file" ></td></tr>
+		
+		
+		<td><input type="checkbox" name="terms">
+			<label style="color:red" for="terms">Terms and Conditions</label></tr></td>
+			
+		<td><input type="button" value="captcha" onclick="alert('Do Captcha')"></tr></td>
+		<p>
+		<td>Add a Comment: </td>
+		</p>
+		<td><textarea>Area</textarea></td></tr>
+		<td><button class="t1"><input type="Submit" value="Next"></button></td>
+		<td><button class="t1"><input type="reset"></button></td></tr>
+		</form>
+		</fieldset>
+		</center>
+		</table>
+		
+	</body>
+</html>

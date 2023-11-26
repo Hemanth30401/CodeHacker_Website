@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Admin</servlet-name>
+  	<display-name>Admin</display-name>
+  	<description></description>
+  	<servlet-class>com.Admin.Admin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CandidateDisplay</servlet-name>
+  	<display-name>CandidateDisplay</display-name>
+  	<description></description>
+  	<servlet-class>com.Admin.CandidateDisplay</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Edit</servlet-name>
+  	<display-name>Edit</display-name>
+  	<description></description>
+  	<servlet-class>com.Admin.Edit</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertServlet</servlet-name>
+  	<display-name>InsertServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Admin.InsertServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCandidateServlet</servlet-name>
+  	<display-name>AddCandidateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Admin.AddCandidateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Admin</servlet-name>
+  	<url-pattern>/Adm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CandidateDisplay</servlet-name>
+  	<url-pattern>/Candidate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Edit</servlet-name>
+  	<url-pattern>/EditServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertServlet</servlet-name>
+  	<url-pattern>/InsertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCandidateServlet</servlet-name>
+  	<url-pattern>/AddCandidateServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>Login.html</welcome-file></welcome-file-list>
+</web-app>
